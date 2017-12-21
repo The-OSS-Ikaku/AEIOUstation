@@ -2666,6 +2666,7 @@
 #include "code\unit_tests\integrated_circuits\circuits.dm"
 #include "code\unit_tests\integrated_circuits\converter.dm"
 #include "code\unit_tests\integrated_circuits\logic.dm"
+#include "code\modules\integrated_electronics\core\prefab.dm"
 #include "code\unit_tests\integrated_circuits\trig.dm"
 #include "code\ZAS\_docs.dm"
 #include "code\ZAS\Airflow.dm"
