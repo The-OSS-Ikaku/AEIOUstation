@@ -99,7 +99,7 @@
 		spot_add(1,3,type_wall)
 		spot_add(2,1,type_wall)
 		spot_add(2,2,type_under) //Center floor
-		spot_add(2,2,/obj/random/cargopod) //Loot!
+	//	spot_add(2,2,/obj/random/cargopod) //Loot!
 		spot_add(2,3,type_wall)
 		spot_add(3,1,type_wall)
 		spot_add(3,2,type_wall)
@@ -112,7 +112,7 @@
 
 	New()
 		..()
-		spot_add(2,2,/obj/random/cargopod) //EXTRA loot!
+		//spot_add(2,2,/obj/random/cargopod) //EXTRA loot!
 		spot_add(2,2,/mob/living/simple_animal/hostile/alien) //GRRR
 
 //Longer cargo container for higher difficulties
@@ -142,9 +142,9 @@
 		spot_add(3,3,type_under) //Mid floor
 		spot_add(4,3,type_under) //Right floor
 
-		spot_add(2,3,/obj/random/cargopod) //Left loot
-		spot_add(3,3,/obj/random/cargopod) //Mid loot
-		spot_add(4,3,/obj/random/cargopod) //Right loot
+	//	spot_add(2,3,/obj/random/cargopod) //Left loot
+	//	spot_add(3,3,/obj/random/cargopod) //Mid loot
+	//	spot_add(4,3,/obj/random/cargopod) //Right loot
 
 		if(prob(30))
 			spot_add(3,3,/mob/living/simple_animal/hostile/alien) //And maybe a friend.

@@ -136,7 +136,7 @@
 			styles["Body Color"] = list("colorHref" = "skin_color", "color" = MOB_HEX_COLOR(mannequin, skin))
 
 		var/datum/preferences/designer/P = new()
-		apply_markings_to_prefs(mannequin, P)
+	//	apply_markings_to_prefs(mannequin, P)
 		data["activeBodyRecord"]["markings"] = P.body_markings
 
 	data["menu"] = menu
@@ -323,10 +323,10 @@
 
 	// We did DNA to mob, now mob to prefs!
 	P.species = mannequin.species.name
-	apply_coloration_to_prefs(mannequin, P)
-	apply_organs_to_prefs(mannequin, P)
-	apply_markings_to_prefs(mannequin, P)
-	apply_ears_to_prefs(mannequin, P)
+//	apply_coloration_to_prefs(mannequin, P)
+//	apply_organs_to_prefs(mannequin, P)
+//	apply_markings_to_prefs(mannequin, P)
+//	apply_ears_to_prefs(mannequin, P)
 
 	// Now we start using the player_setup objects to do stuff!
 	var/datum/category_collection/CC = P.player_setup

@@ -50,7 +50,7 @@
 		//Okay we've got a mind at least
 		if(H == imp_in && H.mind && H.stat < DEAD)
 			SStranscore.m_backup(H.mind,H.nif)
-			persist_nif_data(H)
+		//	persist_nif_data(H)
 
 	spawn(attempt_delay)
 		backup()

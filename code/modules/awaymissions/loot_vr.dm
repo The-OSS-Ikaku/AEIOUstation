@@ -109,7 +109,7 @@
 			var/obj/structure/closet/crate/secure/weapon/C = new(src.loc)
 			if(prob(50))
 				var/new_gun = pick( // Copied from Random.dm
-					prob(11);/obj/random/ammo_all,\
+		/*			prob(11);/obj/random/ammo_all,\*/
 					prob(11);/obj/item/weapon/gun/energy/laser,\
 					prob(11);/obj/item/weapon/gun/projectile/pirate,\
 					prob(10);/obj/item/weapon/material/twohanded/spear,\

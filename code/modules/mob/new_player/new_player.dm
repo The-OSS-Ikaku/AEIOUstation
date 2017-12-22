@@ -467,8 +467,8 @@
 			new_character.rename_self("clown")
 		mind.original = new_character
 		// VOREStation
-		mind.loaded_from_ckey = client.ckey
-		mind.loaded_from_slot = client.prefs.default_slot
+	//	mind.loaded_from_ckey = client.ckey
+	//	mind.loaded_from_slot = client.prefs.default_slot
 		// VOREStation
 		//mind.traits = client.prefs.traits.Copy() // VOREStation conflict
 		mind.transfer_to(new_character)					//won't transfer key since the mind is not active

@@ -83,7 +83,7 @@
 						/obj/random/contraband,
 						/obj/random/contraband,
 						/obj/random/contraband,
-						/obj/random/weapon/guarenteed)
+				/*		/obj/random/weapon/guarenteed*/)
 		new loot(usr.loc)
 		to_chat(user, "You unwrap the package.")
 		qdel(src)

@@ -999,7 +999,7 @@
 
 /obj/item/weapon/reagent_containers/food/snacks/omelette
 	name = "Omelette Du Fromage"
-	desc = "That's all you can say!"
+	desc = "Keep away from horny xenos"
 	icon_state = "omelette"
 	trash = /obj/item/trash/plate
 	filling_color = "#FFF9A8"

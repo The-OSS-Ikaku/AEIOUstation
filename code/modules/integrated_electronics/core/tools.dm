@@ -258,10 +258,12 @@
 			new /obj/item/device/electronic_assembly/medium(null),
 			new /obj/item/device/electronic_assembly/large(null),
 			new /obj/item/device/electronic_assembly/drone(null),
+			new /obj/item/device/electronic_assembly/implant(null),
+
 		)
 
 /obj/item/device/integrated_electronics/analyzer/afterattack(var/atom/A, var/mob/living/user)
-	visible_message( "<span class='notice'>attempt to scan</span>")
+	visible_message( "<span class='notice'>Attemptin to scan the device</span>")
 	if(ispath(A.type,/obj/item/device/electronic_assembly)||ispath(A.type,/obj/item/weapon/implant/integrated_circuit))
 		var/i = 0
 		var/j = 0
@@ -271,12 +273,12 @@
 			if( A.type == I.type )
 				HTML += I.name+"=-="+A.name         //2-nd block.assembly type and name. Maybe in future there will also be color and accesories.
 				break
-		/*
-		If(I.name == "electronic implant")
+
+	/*	If(I.name == "electronic implant")
 			var/obj/item/weapon/implant/integrated_circuit/PI = PA        //now it can't recreate electronic implants.and devices maybe I'll fix it later.
 			var/obj/item/device/electronic_assembly/implant/PIC = PI.IC
-			A = PIC
-			*/
+			A = PIC */
+
 		HTML += "{{*}}components"                   //3-rd block.components. First element is useless.delimeter for elements is ^%^.In element first circuit's default name.Second is user given name.delimiter is =-=
 
 		for(var/obj/item/integrated_circuit/IC in A.contents)
