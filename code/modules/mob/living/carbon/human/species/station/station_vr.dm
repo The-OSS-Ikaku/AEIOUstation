@@ -254,6 +254,7 @@
 	speech_sounds = list('sound/goonstation/voice/growl1.ogg','sound/goonstation/voice/growl2.ogg','sound/goonstation/voice/growl3.ogg')
 	speech_chance = 20
 
+	scream_verb = "howls"
 	male_scream_sound = 'sound/goonstation/voice/howl.ogg'
 	female_scream_sound = 'sound/goonstation/voice/howl.ogg'
 
