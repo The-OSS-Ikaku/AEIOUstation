@@ -251,6 +251,12 @@
 
 	primitive_form = "Wolpin"
 
+	speech_sounds = list('sound/goonstation/voice/growl1.ogg','sound/goonstation/voice/growl2.ogg','sound/goonstation/voice/growl3.ogg')
+	speech_chance = 20
+
+	male_scream_sound = 'sound/goonstation/voice/howl.ogg'
+	female_scream_sound = 'sound/goonstation/voice/howl.ogg'
+
 	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_LIPS | HAS_UNDERWEAR | HAS_SKIN_COLOR | HAS_EYE_COLOR
 
